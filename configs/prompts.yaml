@@ -1,0 +1,49 @@
+safety_check: |
+  You are a safety classifier for a mental health AI assistant.
+  Analyze the user message below for self-harm, suicidal intent, or dangerous content.
+
+  User message: "{user_input}"
+
+  Respond with EXACTLY one word: SAFE or UNSAFE.
+  Do not add any explanation.
+
+query_refinement: |
+  You are a medical query refiner. Given the user input and extracted symptoms, generate a concise, medically-oriented search query for retrieving relevant mental health information.
+
+  User input: "{user_input}"
+  Extracted symptoms: {symptoms}
+
+  Refined query:
+
+symptom_extraction: |
+  Extract mental health symptoms from the following text. Return ONLY a comma-separated list of symptom names. If no symptoms found, return "none".
+
+  Text: "{text}"
+
+  Symptoms:
+
+rag_generation: |
+  You are a helpful mental health information assistant. Use ONLY the provided context to answer. If the context does not contain enough information, say you don't know.
+
+  Context:
+  {context}
+
+  Question: {question}
+
+  Answer:
+
+kg_generation: |
+  You are a mental health assistant answering based on verified knowledge graph facts.
+
+  Known facts:
+  {facts}
+
+  Question: {question}
+
+  Provide a concise, factual answer. Add disclaimer that this is not medical advice.
+
+rejection_response: |
+  [REJ] I cannot provide assistance for this request. If you are in crisis, please contact emergency services or a mental health helpline immediately. You matter, and help is available.
+
+low_confidence_response: |
+  [REJ] I do not have sufficient reliable information to answer this safely. Please consult a qualified mental health professional for accurate guidance.

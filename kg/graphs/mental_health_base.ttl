@@ -1,0 +1,139 @@
+@prefix mh: <http://example.org/mentalhealth#> .
+
+mh:Bipolar_Disorder a mh:Condition ;
+    mh:associated_with mh:Depression,
+        mh:Impulsivity,
+        mh:Mania,
+        mh:Mood_Swings,
+        mh:Sleep_Changes ;
+    mh:label "Bipolar Disorder" ;
+    mh:last_updated "2026-05-03T20:14:27.456526" ;
+    mh:source "seed" .
+
+mh:Ocd a mh:Condition ;
+    mh:associated_with mh:Anxiety,
+        mh:Compulsive_Behaviors,
+        mh:Intrusive_Thoughts,
+        mh:Rituals ;
+    mh:label "OCD" ;
+    mh:last_updated "2026-05-03T20:14:27.455626" ;
+    mh:source "seed" .
+
+mh:Ptsd a mh:Condition ;
+    mh:associated_with mh:Avoidance,
+        mh:Emotional_Numbness,
+        mh:Flashbacks,
+        mh:Hypervigilance,
+        mh:Nightmares ;
+    mh:label "PTSD" ;
+    mh:last_updated "2026-05-03T20:14:27.456129" ;
+    mh:source "seed" .
+
+mh:Schizophrenia a mh:Condition ;
+    mh:associated_with mh:Delusions,
+        mh:Disorganized_Thinking,
+        mh:Hallucinations,
+        mh:Social_Withdrawal ;
+    mh:label "Schizophrenia" ;
+    mh:last_updated "2026-05-03T20:14:27.455841" ;
+    mh:source "seed" .
+
+mh:Anxiety a mh:Condition,
+        mh:Symptom ;
+    mh:associated_with mh:Fatigue,
+        mh:Insomnia,
+        mh:Muscle_Tension,
+        mh:Restlessness,
+        mh:Worry ;
+    mh:label "Anxiety",
+        "anxiety" ;
+    mh:last_updated "2026-05-03T20:14:27.454894" ;
+    mh:source "seed" .
+
+mh:Avoidance a mh:Symptom ;
+    mh:label "avoidance" .
+
+mh:Compulsive_Behaviors a mh:Symptom ;
+    mh:label "compulsive behaviors" .
+
+mh:Delusions a mh:Symptom ;
+    mh:label "delusions" .
+
+mh:Depression a mh:Condition,
+        mh:Symptom ;
+    mh:associated_with mh:Fatigue,
+        mh:Hopelessness,
+        mh:Loss_Of_Interest,
+        mh:Low_Mood,
+        mh:Sleep_Problems ;
+    mh:label "Depression",
+        "depression" ;
+    mh:last_updated "2026-05-03T20:14:27.455351" ;
+    mh:source "seed" .
+
+mh:Disorganized_Thinking a mh:Symptom ;
+    mh:label "disorganized thinking" .
+
+mh:Emotional_Numbness a mh:Symptom ;
+    mh:label "emotional numbness" .
+
+mh:Flashbacks a mh:Symptom ;
+    mh:label "flashbacks" .
+
+mh:Hallucinations a mh:Symptom ;
+    mh:label "hallucinations" .
+
+mh:Hopelessness a mh:Symptom ;
+    mh:label "hopelessness" .
+
+mh:Hypervigilance a mh:Symptom ;
+    mh:label "hypervigilance" .
+
+mh:Impulsivity a mh:Symptom ;
+    mh:label "impulsivity" .
+
+mh:Insomnia a mh:Symptom ;
+    mh:label "insomnia" .
+
+mh:Intrusive_Thoughts a mh:Symptom ;
+    mh:label "intrusive thoughts" .
+
+mh:Loss_Of_Interest a mh:Symptom ;
+    mh:label "loss of interest" .
+
+mh:Low_Mood a mh:Symptom ;
+    mh:label "low mood" .
+
+mh:Mania a mh:Symptom ;
+    mh:label "mania" .
+
+mh:Mood_Swings a mh:Symptom ;
+    mh:label "mood swings" .
+
+mh:Muscle_Tension a mh:Symptom ;
+    mh:label "muscle tension" .
+
+mh:Nightmares a mh:Symptom ;
+    mh:label "nightmares" .
+
+mh:Restlessness a mh:Symptom ;
+    mh:label "restlessness" .
+
+mh:Rituals a mh:Symptom ;
+    mh:label "rituals" .
+
+mh:Sleep_Changes a mh:Symptom ;
+    mh:label "sleep changes" .
+
+mh:Sleep_Problems a mh:Symptom ;
+    mh:label "sleep problems" .
+
+mh:Social_Withdrawal a mh:Symptom ;
+    mh:label "social withdrawal" .
+
+mh:Worry a mh:Symptom ;
+    mh:label "worry" .
+
+mh:Fatigue a mh:Symptom ;
+    mh:label "fatigue" .
+

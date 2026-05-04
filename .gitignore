@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data and Outputs
+data/
+outputs/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+desktop.ini
